@@ -91,7 +91,3 @@ python3 run.py --cycles 120 --tpm 3 --output ./out/baseline_tpm3.html
 ```
 
 Open the three HTML files in a browser to compare TPM behavior. **Note:** this codebase does not yet expose a `--seed`; successive runs are stochastic.
-
-## Notes
-
-- For a **PNG dashboard**, `matplotlib`/`numpy` workflow, and additional modules (`agents.py`, `trust_policy.py`, mock LLM assessor, etc.), see the sibling project [IOTBSM_POC](https://github.com/sethlwilson/IOTBSM_POC).
